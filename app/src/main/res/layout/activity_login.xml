@@ -121,7 +121,6 @@
                     android:layout_height="0.8dp"
                     android:background="@color/colorWhite"/>
 
-
             </LinearLayout>
 
             <LinearLayout
