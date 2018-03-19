@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">来闹</string>
+    <string name="input_phone">请输入手机号</string>
+    <string name="input_pass">请输入密码</string>
+    <string name="forget_pass">忘记密码？</string>
+    <string name="register_account">注册帐号</string>
+
+</resources>
