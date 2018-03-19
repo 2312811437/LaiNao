@@ -6,5 +6,5 @@ package com.cg.lainao.constants;
  */
 
 public class Constants {
-
+    
 }

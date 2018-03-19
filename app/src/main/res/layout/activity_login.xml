@@ -17,7 +17,8 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingLeft="15dp"
-            android:paddingRight="15dp">
+            android:paddingRight="15dp"
+            android:paddingBottom="30dp">
 
             <ImageView
                 android:layout_width="90dp"
@@ -123,19 +124,39 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
                 android:layout_marginTop="20dp"
-                android:gravity="center">
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
-                    />
+                    android:id="@+id/img_qq_login"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/qq_icon" />
 
-            </LinearLayout>
+                <ImageView
+                    android:id="@+id/img_wx_login"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/wx_icon"
+                    android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:layout_marginTop="40dp"-->
+                <!--android:text="@string/lainao_text"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:textSize="18sp"/>-->
 
         </LinearLayout>
 

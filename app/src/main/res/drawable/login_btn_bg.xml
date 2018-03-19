@@ -6,4 +6,11 @@
             <corners android:radius="10px"/>
         </shape>
     </item>
+
+    <item android:state_selected="true">
+        <shape>
+            <solid  android:color="@color/transparentPercent"/>
+            <corners android:radius="10px"/>
+        </shape>
+    </item>
 </selector>
